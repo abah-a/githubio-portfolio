@@ -46,7 +46,7 @@ nav {
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -439,7 +439,7 @@ footer p {
   overflow: hidden;
 }
 body {
-  background-image: url('./assets/olivie-strauss-cnR9Q8ordVI-unsplash.jpg');
+  background-image: url('./assets/tan\ background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
