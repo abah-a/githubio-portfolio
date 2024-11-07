@@ -432,8 +432,8 @@ footer p {
 }
 
 #typing-text {
-  color: rgb(0, 145, 255);
-  border-right: 2px solid rgb(0, 145, 255);
+  color: rgb(255, 202, 29);
+  border-right: 2px solid rgb(255, 202, 29);
   padding-right: 2px;
   white-space: nowrap;
   overflow: hidden;
