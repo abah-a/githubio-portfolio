@@ -183,12 +183,13 @@
     <!-- 🔹 Dialogflow Chatbot Section -->
     <section style="text-align: center; margin: 40px 0;">
       <h2>Chat With My AI Assistant 🤖</h2>
-      <iframe
-        allow="microphone;"
-        width="350"
-        height="430"
-        src="https://console.dialogflow.com/api-client/demo/embedded/ee89f118-6e21-46d1-aeca-95d79bc60b45">
-      </iframe>
+      <!-- Add Dialogflow Messenger -->
+      <df-messenger
+        intent="WELCOME"
+        chat-title="Chatbot"
+        agent-id="ee89f118-6e21-46d1-aeca-95d79bc60b45"
+        language-code="en">
+      </df-messenger>
     </section>
 
     <footer>
@@ -206,5 +207,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- Add Dialogflow Messenger Script -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   </body>
 </html>
