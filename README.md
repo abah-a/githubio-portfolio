@@ -3,12 +3,13 @@
 https://githubioabah.netlify.app
 
 Welcome to my portfolio!
+
 Home: An introduction to who I am and my professional background.
 
-Projects: A showcase of selected works, each with descriptions and links.
+Projects: A showcase of my work, each with descriptions and links.
 
 About: Detailed information about my skills, experience, and interests.
 
-Contact: A form to get in touch with me directly.
+Contact: How to get in touch with me.
 
-Chatbot: An AI-powered assistant to answer questions about my portfolio.
+Chatbot: Dialog Flow chat bot to answer questions about my portfolio.
