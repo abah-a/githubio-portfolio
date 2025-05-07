@@ -20,13 +20,12 @@
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">Alpha Bah</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span></span><span></span><span></span>
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -57,18 +56,8 @@
     </section>
 
     <div id="socials-container">
-      <img
-        src="./assets/LinkedIn_logo_initials.png"
-        alt="My LinkedIn profile"
-        class="icon"
-        onclick="location.href='https://www.linkedin.com/in/alpha-a-bah/'"
-      />
-      <img
-        src="./assets/github.png"
-        alt="My Github profile"
-        class="icon"
-        onclick="location.href='https://github.com/abah-a'"
-      />
+      <img src="./assets/LinkedIn_logo_initials.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/alpha-a-bah/'" />
+      <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/abah-a'" />
     </div>
 
     <section id="about">
@@ -84,7 +73,7 @@
               <img src="./assets/experience.png" alt="Experience icon" class="icon" />
               <h3>Experience</h3>
               <p>June 2024 - Current <br />Apple Specialist</p>
-              <p>Feburary 2018 <br />CompTIA IT Fundamentals Cert</p>
+              <p>February 2018 <br />CompTIA IT Fundamentals Cert</p>
             </div>
             <div class="details-container">
               <img src="./assets/education.png" alt="Education icon" class="icon" />
@@ -95,13 +84,7 @@
           <div class="highlighted-text">
             👋 Hi, I'm Alpha Bah! I'm currently pursuing a B.S. in Computer Technology 
             with a concentration in Data Administration at Bowie State University, with plans 
-            to graduate in December 2025. I'm dedicated to expanding my skill set to become proficient 
-            across multiple areas within the tech industry. In addition to my technical skills, I bring 
-            a diverse professional background, with roles in data analysis and office management that have 
-            taught me the importance of efficiency, organization, and clear communication. Looking ahead, 
-            I’m excited to pursue opportunities that allow me to apply my skills in software development 
-            and data analytics. I'm driven by a desire to become knowledgeable in multiple areas within tech, 
-            preparing myself for a successful and impactful career in software development and data administration.
+            to graduate in December 2025...
           </div>
         </div>
       </div>
@@ -191,11 +174,21 @@
           <p><a href="https://www.linkedin.com/in/alpha-a-bah/">LinkedIn</a></p>
         </div>
       </div>
-      <!-- QR Code Image -->
       <div style="text-align: center; margin-top: 20px;">
         <img src="./assets/adobe-express-qr-code.png" alt="Alpha Bah QR Code" style="width: 150px; height: 150px;" />
         <p>Scan to connect with me!</p>
       </div>
+    </section>
+
+    <!-- 🔹 Dialogflow Chatbot Section -->
+    <section style="text-align: center; margin: 40px 0;">
+      <h2>Chat With My AI Assistant 🤖</h2>
+      <iframe
+        allow="microphone;"
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/ee89f118-6e21-46d1-aeca-95d79bc60b45">
+      </iframe>
     </section>
 
     <footer>
@@ -211,7 +204,7 @@
       </nav>
       <p>Copyright &#169; 2024 Alpha Bah. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
-
